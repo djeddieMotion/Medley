@@ -94,6 +94,7 @@ $(function()
 		
 		playProgress = (audio.currentTime / audio.duration) * 100;
 		
+		
 		if(curMinutes < 10)
 			curMinutes = '0'+curMinutes;
 		if(curSeconds < 10)
